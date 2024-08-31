@@ -12,6 +12,7 @@ PORT = 3030 (troque a porta de acordo com a desejavel)
 API_KEY_GOOGLE = "SUA API KEY DO GEMINI AQUI"
 
 ## Como rodar o projeto
+# Lembre de alterar as váriaveis no docker-compose, colocando as variais do banco de dados !
 # Navague para o caminho raiz shopper/visiongemini
 # Construa o docker com o comando >  docker build -t visiongemini .
 # Rode o contêiner > docker run -d -p 3030:3030 --name meu_visiongemini visiongemini
